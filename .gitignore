@@ -3,8 +3,16 @@
 **/.recommenders/
 **/RemoteSystemsTempFiles/
 
+# Eclipse: configuración del proyecto
+**/.settings/
+**/.classpath
+**/.project
+
 # Maven
 **/target/
+
+# Java compilado
+*.class
 
 # Sistema operativo
 .DS_Store
