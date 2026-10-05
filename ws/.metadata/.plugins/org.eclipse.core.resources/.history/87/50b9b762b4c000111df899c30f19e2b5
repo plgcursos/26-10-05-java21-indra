@@ -1,8 +1,0 @@
-package introduccion;
-
-public class LeerDatos {
-
-	public static void main(String[] arg) {
-		
-	}
-}
