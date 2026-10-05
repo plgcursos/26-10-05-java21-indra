@@ -1,0 +1,11 @@
+package introduccion;
+
+public class LeerDatos {
+
+	public static void main(String[] arg) {
+		int num1 = 10;
+		String nombre;
+
+		java.util.Scanner tec = new java.util.Scanner(System.in);
+	}
+}

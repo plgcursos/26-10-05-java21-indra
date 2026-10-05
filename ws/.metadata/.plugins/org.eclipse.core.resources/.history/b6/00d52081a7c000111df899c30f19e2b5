@@ -1,0 +1,19 @@
+package introduccion;
+
+//El nombre real de la clase es:   introduccion.MiPrimerPrograma
+public class 
+
+
+
+
+
+
+MiPrimerPrograma {
+	public static 
+	
+	
+	
+	
+	
+						void main(String[] arg) {System.out.println("Hola mundo desde Eclipse");}
+}
