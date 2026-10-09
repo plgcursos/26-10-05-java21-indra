@@ -1,7 +1,7 @@
 package dominio;
 
-public class Circulo extends Figura {
-	public double radio;
+public class Circulo extends Figura implements Imprimible {
+	private double radio;
 	
 	public Circulo() {
 	}
@@ -10,19 +10,29 @@ public class Circulo extends Figura {
 		super(x, y);
 		this.radio = radio;
 	}
-	
+
 	public double diametro() {
 		return 2 * radio;
 	}
 	
+	@Override
 	public double area() {
 		return Math.PI * Math.pow(radio, 2);
 	}
 	
+	@Override
 	public double perimetro() {
 		return Math.PI * diametro();
 	}
 	
+	public double getRadio() {
+		return radio;
+	}
+
+	public void setRadio(double radio) {
+		this.radio = radio;
+	}
+
 	public String toString() {
 		return "Circulo(" + getX() + ", " + getY() + ", " + radio + ")";
 	}
@@ -31,5 +41,11 @@ public class Circulo extends Figura {
 		if (!super.equals(o)) return false;
 		Circulo otro = (Circulo)o;
 		return this.radio == otro.radio;
+	}
+
+	@Override
+	public void print() {
+		System.out.println("Imprime el circulito!!");
+		
 	}
 }

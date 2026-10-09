@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Ej0207 {
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		var tec = new Scanner(System.in);
 		
 		int num, fact = 1;

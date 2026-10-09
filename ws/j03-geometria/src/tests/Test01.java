@@ -24,6 +24,6 @@ public class Test01 {
 		
 		System.out.println(r.getX() - c.getX());
 		
-		Figura f;
+//		Figura f = new Figura(); no lo permite porque Figura es abstracta
 	}
 }

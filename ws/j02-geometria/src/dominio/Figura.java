@@ -2,8 +2,8 @@ package dominio;
 
 public class Figura {
 
-	public double x;
-	public double y;
+	private double x;
+	private double y;
 	
 	public Figura() {}
 	
@@ -19,6 +19,22 @@ public class Figura {
 	
 	public double perimetro() {
 		return 0;
+	}
+	
+	public double getX() {
+		return x;
+	}
+	
+	public void setX(double x) {
+		this.x = x;
+	}
+	
+	public double getY() {
+		return y;
+	}
+	
+	public void setY(double y) {
+		this.y = y;
 	}
 	
 	public boolean equals(Object o) {
